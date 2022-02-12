@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://bot2.atharv2951.workers.dev/0:/Samfw.com_SM-M115F_INS_M115FXXU2BUD8_fac.zip
+  ROM_URL: https://bot2.atharv2951.workers.dev/0:/Samfw.com_SM-A115F_GLB_A115FXXU2BUK2_fac.zip
 
 jobs:
   build:
@@ -28,8 +28,8 @@ jobs:
          working-directory: firmware_dumper
          run: |
               sudo bash setup.sh
-              git config --global user.name "Hitalo"
-              git config --global user.email "40531911+HitaloSama@users.noreply.github.com"
+              git config --global user.name "atharvnegi"
+              git config --global user.email "atharvnegi2951@gmail.com"
        - name: Setup config envs
          working-directory: firmware_dumper
          run: |
