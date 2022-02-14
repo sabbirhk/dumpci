@@ -23,21 +23,21 @@ jobs:
 
        - name: Clone Dumpyara
          run: |
-              git clone https://github.com/AndroidDumpsCI/firmware_dumper
+              git clone https://github.com/DroidDumps/phoenix_firmware_dumper
        - name: Setup Dumpyara environment
-         working-directory: firmware_dumper
+         working-directory: phoenix_firmware_dumper
          run: |
               sudo bash setup.sh
               git config --global user.name "atharvnegi"
               git config --global user.email "atharvnegi2951@gmail.com"
        - name: Setup config envs
-         working-directory: firmware_dumper
+         working-directory: phoenix_firmware_dumper
          run: |
               echo "${{ secrets.GIT_TOKEN }}" > .github_token
               echo "${{ secrets.GIT_ORG_NAME }}" > .github_orgname
               echo "${{ secrets.BOT_TOKEN }}" > .tg_token
               echo "${{ secrets.CHAT_ID }}" > .tg_chat
        - name: Running Dumpyara
-         working-directory: firmware_dumper
+         working-directory: phoenix_firmware_dumper
          run: |
-              ./dump.sh "$ROM_URL"
+              ./dumper.sh "$ROM_URL"
