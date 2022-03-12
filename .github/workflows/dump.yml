@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://pikachu.atharv2951.workers.dev/0://Tecno_Spark_7_KF6K_MT6768_V213_210323.zip
+  ROM_URL: https://pikachu.atharv2951.workers.dev/0://KF6h-H6219EF-RGo-GL-210719V464.zip
 
 jobs:
   build:
