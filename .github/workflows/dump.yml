@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://pikachu.atharv2951.workers.dev/0://crDroidAndroid-10.0-20210810-on7xelte-v6.21.zip
+  ROM_URL: https://pikachu.atharv2951.workers.dev/0://crDroidAndroid-10.0-20210810-j7xelte-v6.21.zip
 
 jobs:
   build:
