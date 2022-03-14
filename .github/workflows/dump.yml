@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://pikachu.atharv2951.workers.dev/0://crDroidAndroid-10.0-20210810-j7y17lte-v6.21.zip
+  ROM_URL: https://pikachu.atharv2951.workers.dev/0://Samfw.com_SM-A600G_INS_A600GDXU9CUC2_fac.zip
 
 jobs:
   build:
