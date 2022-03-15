@@ -40,4 +40,5 @@ jobs:
        - name: Running Dumpyara
          working-directory: phoenix_firmware_dumper
          run: |
-              ./dumper.sh "$ROM_URL"
+              wget https://github.com/DroidDumps/phoenix_firmware_dumper
+              ./dumper.sh *.zip
