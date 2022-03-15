@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://pikachu.atharv2951.workers.dev/0://Samfw.com_SM-M105F_INS_M105FDDS4CUD1_fac.zip
+  ROM_URL: https://pikachu.atharv2951.workers.dev/0://miui_PINEINGlobal_V12.5.1.0.QCMINXM_8cee6dc16a_10.0.zip
 
 jobs:
   build:
