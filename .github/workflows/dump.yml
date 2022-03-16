@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://pikachu.atharv2951.workers.dev/0://36779764279b6751959cc6709d7d16a1ed7ed1f7.zip
+  ROM_URL: https://pikachu.atharv2951.workers.dev/0://miui_HM3S_V10.2.2.0.MALCNXM_6fb1d75d0f_6.0.zip
 
 jobs:
   build:
