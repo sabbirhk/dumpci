@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://pikachu.atharv2951.workers.dev/0://Samfw.com_SM-A207F_INS_A207FXXU3CUL1_fac.zip
+  ROM_URL: https://bigota.d.miui.com/V13.0.4.0.RGEINXM/miui_FOGINGlobal_V13.0.4.0.RGEINXM_d9a3183d3c_11.0.zip
 
 jobs:
   build:
