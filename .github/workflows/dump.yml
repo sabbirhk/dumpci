@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://pikachu.atharv2951.workers.dev/0://Infinix_Hot_8_X650C_MT6765_V174_190807.zip
+  ROM_URL: https://bigota.d.miui.com/V12.5.12.0.RKLINXM/miui_ROSEMARYINGlobal_V12.5.12.0.RKLINXM_57a06d19aa_11.0.zip
 
 jobs:
   build:
