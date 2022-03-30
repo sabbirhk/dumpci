@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V13.0.4.0.SKHINXM/miui_ALIOTHINGlobal_V13.0.4.0.SKHINXM_276654c47c_12.0.zip
+  ROM_URL: https://bot2.atharv2951.workers.dev/0:/9c10f87a266cbe92ad9d0e4ee3f36e85131f7df5.zip
 
 jobs:
   build:
