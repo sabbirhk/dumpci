@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://bot2.atharv2951.workers.dev/0:/Samfw.com_SM-E236B_INS_E236BXXU1AVC4_fac.zip
+  ROM_URL: https://true-mirror-69.gitsauraj.workers.dev/0:/RMX3231-user-native_SHARKL3_R11.pac
 
 jobs:
   build:
