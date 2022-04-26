@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://true-mirror-69.gitsauraj.workers.dev/0:/RMX3231-user-native_SHARKL3_R11.pac
+  ROM_URL: https://pikachu.atharv2951.workers.dev/0://c6260831df0acdfe9828f18bcea7ffb556f4b2e5.zip
 
 jobs:
   build:
