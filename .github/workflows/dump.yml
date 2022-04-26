@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://pikachu.atharv2951.workers.dev/0://c6260831df0acdfe9828f18bcea7ffb556f4b2e5.zip
+  ROM_URL: https://bigota.d.miui.com/V12.0.23.0.QCDINXM/miui_DANDELIONINGlobal_V12.0.23.0.QCDINXM_9fd11d53c1_10.0.zip
 
 jobs:
   build:
@@ -23,7 +23,7 @@ jobs:
 
        - name: Clone Dumpyara
          run: |
-              git clone https://github.com/AndroidDumpsCI/firmware_dumper dumper
+              git clone https://github.com/fw-dumps/firmware_dumper dumper
        - name: Setup Dumpyara environment
          working-directory: dumper
          run: |
