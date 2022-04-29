@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://pikachu.atharv2951.workers.dev/0://Nokia_5.5_HMDSW_drd-1130-0-00WW-B01_QPST_%28by_firmwarefile.com%29.zip
+  ROM_URL: https://bigota.d.miui.com/V13.0.10.0.RGKEUXM/miui_SPESNEEAGlobal_V13.0.10.0.RGKEUXM_8239970ccd_11.0.zip
 
 jobs:
   build:
