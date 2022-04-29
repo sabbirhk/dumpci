@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.5.3.0.RJWINRF/miui_CURTANAINRFGlobal_V12.5.3.0.RJWINRF_c0573c4dc3_11.0.zip
+  ROM_URL: https://pikachu.atharv2951.workers.dev/0://Nokia_5.5_HMDSW_drd-1130-0-00WW-B01_QPST_%28by_firmwarefile.com%29.zip
 
 jobs:
   build:
