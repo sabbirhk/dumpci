@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.5.2.0.RCZMIXM/miui_DANDELIONC3L2Global_V12.5.2.0.RCZMIXM_0d64d42c2a_11.0.zip
+  ROM_URL: https://bigota.d.miui.com/V12.5.3.0.RJWINRF/miui_CURTANAINRFGlobal_V12.5.3.0.RJWINRF_c0573c4dc3_11.0.zip
 
 jobs:
   build:
