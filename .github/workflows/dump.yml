@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.5.4.0.RGGCNXM/miui_BEGONIA_V12.5.4.0.RGGCNXM_4cdcacc9ae_11.0.zip
+  ROM_URL: https://worst-generation.prajwals.workers.dev/0:/Samfw.com_SM-M115F_INS_M115FXXU3CVF6_fac.zip
 
 jobs:
   build:
