@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://worst-generation.prajwals.workers.dev/0:/Samfw.com_SM-M115F_INS_M115FXXU3CVF6_fac.zip
+  ROM_URL: https://rms01.realme.net/SW/realme%20service/realme%20C12/206B9/RMX2189export_11_C.13_2022070513330163.7z
 
 jobs:
   build:
