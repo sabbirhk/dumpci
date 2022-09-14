@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://worst-generation.prajwals.workers.dev/0:/RMX2189export_11_C.13_2022070513330163.7z
+  ROM_URL: https://mirror.sparrowisland.ga/0:/Bot%20Uploads/fw
 
 jobs:
   build:
