@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V13.0.8.0.SKUMIXM/miui_SELENEGlobal_V13.0.8.0.SKUMIXM_de90299a71_12.0.zip
+  ROM_URL: https://kartik19.omegamirror.workers.dev/0:/Files/Samfw.com_SM-E236B_INS_E236BXXU1AVJ1_fac.zip
 
 jobs:
   build:
