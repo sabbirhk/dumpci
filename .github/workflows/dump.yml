@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://kartik19.omegamirror.workers.dev/0:/Files/Samfw.com_SM-E236B_INS_E236BXXU1AVJ1_fac.zip
+  ROM_URL:  https://canary-mirror-index.sushrut1101.workers.dev/0:/GetGsmTips.Com_INFINIX-HOT-11-X662-H6914B-R-TR-211009V405.rar
 
 jobs:
   build:
