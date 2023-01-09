@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://cdn.winten.workers.dev/6:/Data/Samfw.com_SM-J330G_XXV_J330GDXS3CUD1_fac.zip
+  ROM_URL: https://drive.google.com/uc?id=1Vt4MQLvCLWJJBTPG25AWTmAZItec6sXO&export=download
   
 jobs:
   build:
