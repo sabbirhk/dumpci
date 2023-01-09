@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://drive.google.com/uc?id=1Vt4MQLvCLWJJBTPG25AWTmAZItec6sXO&export=download
+  ROM_URL: https://bot1.megamirrorgroup.workers.dev/0:/Android_11_ARM64_a11q_m11q.zip
   
 jobs:
   build:
