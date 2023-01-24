@@ -1,4 +1,4 @@
-name: Dumping
+name: Dumping fw
  
 on:
   push:
