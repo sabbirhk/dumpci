@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://du1.devuploads.com/d/3ajyralp5mo5kx664wgbuy6ekn6t3dl3whmvmc5kfj43tan2k3szkfmwd57icihau4peoou6/PixelExperience_selene-13.0-20230210-0810-UNOFFICIAL.zip
+  ROM_URL: https://tg.24x7-mltb.workers.dev/0:/SM-E625F- E625FDDS3CWB1.zip
   
 jobs:
   build:
