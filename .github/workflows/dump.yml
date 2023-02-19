@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://atrociousmirror.al-noman.workers.dev/0:/[GsmXpro.com]_SM-J600FN_J600FNXXS9CTI2__OXM_J600FNOXM9CTI2_PHE-10.0.rar
+  ROM_URL: https://atrociousmirror.al-noman.workers.dev/0:/[vuhungmobile.com]_SM-A115M_A115MUBU2BVB2_A115MUBU2BVB1_CHE_Android-11.zip
   
 jobs:
   build:
