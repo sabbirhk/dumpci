@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://ava6.androidfilehost.com/dl/gc4z0rbDip0izt66KDWXRA/1676875185/17248734326145703556/%5BGsmXpro.com%5D_SM-J600FN_J600FNXXS9CTI2__OXM_J600FNOXM9CTI2_PHE-10.0.rar
+  ROM_URL: https://bot1.megamirror69.workers.dev/0:/[GsmXpro.com]_SM-J600FN_J600FNXXS9CTI2__OXM_J600FNOXM9CTI2_PHE-10.0.rar
   
 jobs:
   build:
