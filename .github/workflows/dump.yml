@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://github.com/thegangbanger77/rom/releases/download/Rom/Acer+One+8+T4+82L+Flash+file+By+flashfile.in.rar
+  ROM_URL: https://atrociousmirror.al-noman.workers.dev/0:/Lenovo_Tab_M7_TB-7305X_MT6739_2GB_HW91_S000030_190920_ROW_SVC_%28by_firmwarefile.com%29.zip
   
 jobs:
   build:
