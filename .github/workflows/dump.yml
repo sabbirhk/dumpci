@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://atrociousmirror.al-noman.workers.dev/0:/Lenovo_Tab_M7_TB-7306F_MT6761_S000022_210301_ROW.zip
+  ROM_URL: https://bigota.d.miui.com/V13.0.6.0.SKUCNXM/miui_SELENE_V13.0.6.0.SKUCNXM_18335b51ac_12.0.zip
   
 jobs:
   build:
@@ -23,7 +23,7 @@ jobs:
 
        - name: Clone Dumpyara
          run: |
-              git clone https://github.com/fw-dumps/firmware_dumper dumper
+              git clone https://github.com/DumprX/DumprX dumper
        - name: Setup Dumpyara environment
          working-directory: dumper
          run: |
@@ -40,4 +40,4 @@ jobs:
        - name: Running Dumpyara
          working-directory: dumper
          run: |
-              ./dump.sh $ROM_URL
+              ./dumper.sh $ROM_URL
