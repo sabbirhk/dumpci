@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://gauss-componentotacostmanual-in.allawnofs.com/remove-b096834145311e69a10c5da666187ade/component-ota/22/12/08/7c406a127a1a4496bfd68e6ece79b8bc.zip
+  ROM_URL: https://bigota.d.miui.com/V13.0.8.0.SGBCNXM/evergo_images_V13.0.8.0.SGBCNXM_20221121.0000.00_12.0_cn_c99933ef62.tgz
   
 jobs:
   build:
