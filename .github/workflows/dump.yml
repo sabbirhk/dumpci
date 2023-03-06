@@ -15,7 +15,9 @@ env:
   
 jobs:
   build:
-    runs-on: ghcr.io/sushrut1101/docker:arch
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/sushrut1101/docker:arch
 
     steps:
        - name: Checkouts
