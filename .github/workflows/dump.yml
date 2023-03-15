@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V13.0.6.0.SCVEUXM/earth_eea_global_images_V13.0.6.0.SCVEUXM_20230302.0000.00_12.0_eea_5a8a43b62a.tgz
+  ROM_URL: https://bigota.d.miui.com/V14.0.7.0.TLFCNXM/miui_DITING_V14.0.7.0.TLFCNXM_c236aa2ab9_13.0.zip
   
 jobs:
   build:
