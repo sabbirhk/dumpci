@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V14.0.7.0.TLFCNXM/miui_DITING_V14.0.7.0.TLFCNXM_c236aa2ab9_13.0.zip
+  ROM_URL: https://bigota.d.miui.com/V14.0.2.0.TKSCNXM/miui_CAMELLIA_V14.0.2.0.TKSCNXM_3b9393dc62_13.0.zip
   
 jobs:
   build:
