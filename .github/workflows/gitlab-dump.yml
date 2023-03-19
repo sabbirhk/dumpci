@@ -17,7 +17,7 @@ env:
 
   # Gitlab
   PUSH_TO_GITLAB: true
-  GITLAB_INSTANCE: gitlab.orfeo-toolbox.org
+  GITLAB_HOST: gitlab.orfeo-toolbox.org
 
 jobs:
   build:
