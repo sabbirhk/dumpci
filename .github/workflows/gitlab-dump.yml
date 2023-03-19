@@ -1,0 +1,52 @@
+name: Dumping Firmware
+ 
+on:
+  workflow_dispatch:
+    inputs:
+      ROM_URL:
+        description: "Direct Link of the ROM/Firmware to Dump"
+        required: true
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  # ROM
+  ROM_URL: ${{ github.event.inputs.ROM_URL }}
+
+  # Gitlab
+  PUSH_TO_GITLAB: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/sushrut1101/docker:arch
+
+    steps:
+       - name: Checkouts
+         uses: actions/checkout@v2
+
+       - name: Clone Our Firmware Dumper
+         run: |
+              git clone https://github.com/DumprX/DumprX.git DumprX
+
+       - name: Setup DumprX's Environment
+         working-directory: DumprX
+         run: |
+              sudo bash setup.sh
+
+       - name: Setup Config envs
+         working-directory: DumprX
+         run: |
+              echo "${{ secrets.GITLAB_TOKEN }}" > .gitlab_token  # Only for Gitlab
+              echo "${{ secrets.GITLAB_GROUP }}" > .gitlab_group  # Only for Gitlab
+              echo "${{ secrets.PRIV_SSH_KEY }}" > ~/.ssh/id_rsa  # Only for Gitlab
+              echo "${{ secrets.BOT_TOKEN }}" > .tg_token
+              echo "${{ secrets.CHAT_ID }}" > .tg_chat
+
+       - name: Start Dumping
+         working-directory: DumprX
+         run: |
+              ./dumper.sh "$ROM_URL"
