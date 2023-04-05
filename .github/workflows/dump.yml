@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://dl.google.com/dl/android/aosp/cheetah-ota-tq2a.230305.008.c1-6ac5ff2e.zip
+  ROM_URL: https://mirrors.lolinet.com/firmware/motorola/hawaiipl/official/RETAIL/HAWAIIPL_RETAIL_12_STB32.36-99-1_hawaiipl_g_user_CID50_sign_20220902113527_SVC.zip
   
 jobs:
   build:
