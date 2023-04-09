@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://mirrors.lolinet.com/firmware/motorola/hawaiipl/official/RETAIL/HAWAIIPL_RETAIL_12_STB32.36-99-1_hawaiipl_g_user_CID50_sign_20220902113527_SVC.zip
+  ROM_URL: https://rms01.realme.net/sw/RMX2117export_11_F.05_2022102523580000.zip
   
 jobs:
   build:
