@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://rms01.realme.net/sw/RMX2117export_11_F.05_2022102523580000.zip
+  ROM_URL: https://android.googleapis.com/packages/ota-api/package/ec3caa99ee9e52601ecc9236e96571cb1ea7012a.zip
   
 jobs:
   build:
