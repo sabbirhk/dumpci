@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://android.googleapis.com/packages/ota-api/package/ec3caa99ee9e52601ecc9236e96571cb1ea7012a.zip
+  ROM_URL: https://bigota.d.miui.com/V13.0.11.0.SMQINXM/miui_SUNSTONEINGlobal_V13.0.11.0.SMQINXM_c5376a062f_12.0.zip
   
 jobs:
   build:
