@@ -26,7 +26,7 @@ jobs:
        - name: Clone Dumpyara
          run: |
               git clone https://github.com/fw-dumps/DumprX dumper
-              sudo pacman -S python-pip
+              sudo pacman -S python3-pip -y
        - name: Setup Dumpyara environment
          working-directory: dumper
          run: |
