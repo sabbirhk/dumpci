@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V13.0.11.0.SMQINXM/miui_SUNSTONEINGlobal_V13.0.11.0.SMQINXM_c5376a062f_12.0.zip
+  ROM_URL: https://bigota.d.miui.com/V14.0.2.0.TKUCNXM/miui_SELENE_V14.0.2.0.TKUCNXM_f349844cfd_13.0.zip
   
 jobs:
   build:
@@ -25,7 +25,7 @@ jobs:
 
        - name: Clone Dumpyara
          run: |
-              git clone https://github.com/DumprX/DumprX dumper
+              git clone https://github.com/fw-dumps/DumprX dumper
        - name: Setup Dumpyara environment
          working-directory: dumper
          run: |
