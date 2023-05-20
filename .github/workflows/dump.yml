@@ -16,8 +16,6 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/sushrut1101/docker:arch
 
     steps:
        - name: Checkouts
@@ -25,8 +23,9 @@ jobs:
 
        - name: Clone Dumpyara
          run: |
+              sudo apt install neofetch -y
               git clone https://github.com/fw-dumps/DumprX dumper
-              sudo pacman -S python-pip -y
+              sudo apt install python3-pip -y
        - name: Setup Dumpyara environment
          working-directory: dumper
          run: |
