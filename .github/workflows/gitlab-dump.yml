@@ -17,12 +17,12 @@ env:
 
   # Gitlab
   PUSH_TO_GITLAB: true
-  GITLAB_GROUP: fw-dumps
+  GITLAB_GROUP: dumps
+  GITLAB_INSTANCE: gitlab.orekit.org
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
 
     steps:
        - name: Checkouts
@@ -33,25 +33,27 @@ jobs:
               mkdir -p ~/.ssh
               ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
               ssh-keyscan -t rsa gitlab.com >> ~/.ssh/known_hosts
-              echo "${{ secrets.PRIV_SSH_KEY }}" > ~/.ssh/id_rsa.pub
-              chmod 600 ~/.ssh/id_rsa.pub
+              ssh-keyscan -H "${GITLAB_INSTANCE}" >> ~/.ssh/known_hosts
+              echo "${{ secrets.PRIV_SSH_KEY }}" > ~/.ssh/id_ed25519
+              chmod 600 ~/.ssh/id_ed25519
 
        - name: Clone Our Firmware Dumper
          run: |
               git clone https://github.com/DumprX/DumprX.git DumprX
 
-       - name: Setup DumprX's Environment
-         working-directory: DumprX
-         run: |
-              sudo bash setup.sh
-
        - name: Setup Config envs
          working-directory: DumprX
          run: |
+              sudo apt install neofetch -y
+              neofetch
+              git config --global user.name "atharvnegi"
+              git config --global user.email "atharvnegi2951@gmail.com"
               echo "${{ secrets.GITLAB_TOKEN }}" > .gitlab_token  # Only for Gitlab
               echo "${{ secrets.GITLAB_GROUP }}" > .gitlab_group  # Only for Gitlab
               echo "${{ secrets.BOT_TOKEN }}" > .tg_token
               echo "${{ secrets.CHAT_ID }}" > .tg_chat
+              echo "${GITLAB_INSTANCE}" > .gitlab_instance
+              sudo bash setup.sh
 
        - name: Start Dumping
          working-directory: DumprX
