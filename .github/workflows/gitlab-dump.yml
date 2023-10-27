@@ -17,8 +17,8 @@ env:
 
   # Gitlab
   PUSH_TO_GITLAB: true
-  GITLAB_GROUP: dumps
-  GITLAB_INSTANCE: gitlab.orekit.org
+  GITLAB_GROUP: fw-dumps
+  GITLAB_INSTANCE: gitlab.com
 
 jobs:
   build:
