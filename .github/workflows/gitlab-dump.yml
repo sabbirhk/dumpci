@@ -35,7 +35,9 @@ jobs:
               ssh-keyscan -t rsa gitlab.com >> ~/.ssh/known_hosts
               ssh-keyscan -H "${GITLAB_INSTANCE}" >> ~/.ssh/known_hosts
               echo "${{ secrets.PRIV_SSH_KEY }}" > ~/.ssh/id_ed25519
+              echo "${{ secrets.PUB_SSH_KEY }}" > ~/.ssh/id_ed25519.pub
               chmod 600 ~/.ssh/id_ed25519
+              chmod 600 ~/.ssh/id_ed25519.pib
 
        - name: Clone Our Firmware Dumper
          run: |
