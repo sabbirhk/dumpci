@@ -11,12 +11,11 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://09-samsung.cloud/v2/IxJCDiMnLgQDBykmHhEhBTMRIRwzNh4lFzssIDs2ByAzMUEgOzEUQDMQMCMBOyw/NUBBAgMbIBYjFzkGIwAdPw0RHjozAAI4ATsuLTsvMz8jJTMrNEApLRcIHT8DJx8cDycGLDUDQQoeNh8bOzEuOC8nAjMhJCANDQA+ODQ2IQEeCCkKAzY+AjM4BkIeCzwGHgM8FCMkNDEjCxVACTghHzInDQYuFx8rIwAvJCFAMxE8EQY5NRshDjURPho0ES8kNRYhOR44LwsJEQc5NBsjKyEAPg4hAAYsLjgeLDQRHg4yJTMsMiUNKzwAPh8mGzk5FyUzDTUHQQEuByADISxBIwMnOUANQAokMzYCICMXPjkDFzA1CS8pDTsxHhwzQAZCOzEHHjMsNCsNMT4eODAeHgk7MQYeFiEEODEsATswPh4jAw0ADSwpPDskQSAvMRUkOAAhKTw/FD01OCBCJhYuJiMnNh8yLAcCNScuHC8WLAU7MQcDMyQeIw8sIEENLwUxNCQsFg8DLBEjOAZCIwM8FAEWOzAeAwgxHiITEw==
+  ROM_URL: https://rms01.realme.net/sw/RMX3660export_11_A.34_2023011819030132.zip
   
 jobs:
   build:
-    using: 'ubuntu-latest'
-    image: 'ghcr.io/sushrut1101/docker:arch'
+    runs-on: ubuntu-latest
 
     steps:
        - name: Checkouts
