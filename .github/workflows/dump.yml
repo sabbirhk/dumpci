@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://rms01.realme.net/sw/RMX3660export_11_A.34_2023011819030132.zip
+  ROM_URL: https://index.sauraj.eu.org/api/raw/?path=/selene-s-vendor/PixelExperience_selene-13.0-20231029-1451-UNOFFICIAL.zip
   
 jobs:
   build:
