@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://index.sauraj.eu.org/api/raw/?path=/selene-s-vendor/PixelExperience_selene-13.0-20231029-1451-UNOFFICIAL.zip
+  ROM_URL: https://bigota.d.miui.com/V13.0.6.0.SKUCNXM/miui_SELENE_V13.0.6.0.SKUCNXM_18335b51ac_12.0.zip
   
 jobs:
   build:
