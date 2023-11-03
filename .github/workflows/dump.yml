@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V13.0.6.0.SKUCNXM/miui_SELENE_V13.0.6.0.SKUCNXM_18335b51ac_12.0.zip
+  ROM_URL: https://07-samsung.cloud/v2/IxJCDiMnLiUeJywtEjs+NiNAI0ANOx4lFzssIDs2ByAzMUEgOzEUQDMQMCMBOyw/A0BBAjUbAis7Fh48NDEUQDsDPB0zLyExLxssORcbLDEhACwbLhEzGiE7LBQyFzEUIyVBMAk7FDs0ByEEOzEGLC4WIRozEQcIHhYvHjMkHi8PJwc7LxYgESMbBkIeCzwGHgM8FCMkNDEjCxVACTghHzInDQYuFx8rIwAvJCFAMxE8EQY5NRshDjURPho0ES8kNRYhOR44LwsJEQc5NBsjKyEAPg4hAAYsLjgeLDQRHg4yJTMsMiUNKzwAPh8mGzk5FyUzDTUHQQEuByADISxBIwMnOUANQAokMzYCICMXPjkDFzA1CS8pDTsxHhwzQAZCOzEHHjMsNCsNMT4eODAeHgk7Oz8jJCEEODEsATswPgcjCyMADSwpPC8DMxYvMTYGOAAhKTw/FD01OCBCJhspHzUAPDk1QCEeFxYeBy47LDkDAyEXFwMNFA0XKR0yCAgUIwchCAM4IBojOAZCIwM8FAEWNh0jJDYwHjkTEw==
   
 jobs:
   build:
@@ -26,6 +26,7 @@ jobs:
               sudo apt install neofetch -y
               git clone https://github.com/fw-dumps/DumprX dumper
               sudo apt install python3-pip -y
+              sudo apt install -y f2fs-tools
        - name: Setup Dumpyara environment
          working-directory: dumper
          run: |
