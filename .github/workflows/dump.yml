@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V13.0.16.0.SKUMIXM/miui_SELENEGlobal_V13.0.16.0.SKUMIXM_2fb08ae13e_12.0.zip
+  ROM_URL: https://bigota.d.miui.com/V14.0.4.0.TKUMIXM/miui_SELENEGlobal_V14.0.4.0.TKUMIXM_3c1ec73c4f_13.0.zip
   
 jobs:
   build:
