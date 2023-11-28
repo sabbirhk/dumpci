@@ -12,7 +12,6 @@ defaults:
 
 env:
   ROM_URL: https://sourceforge.net/projects/samsung-galaxy-a01-m01/files/a11q.zip/download
-  
   jobs:
   build:
     runs-on: ubuntu-latest
