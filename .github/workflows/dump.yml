@@ -11,8 +11,9 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://13-samfw.cloud/v2/IxJCDiMnLikSCB8LARYhIDQnHwsBOx4lFzssIDs2ByAzMUEgOzEUQDMQMCMBOyw/PBcpKQMRLhEJFz4dIRYsHjQXLAweAAc4MjYVMTIsLkA1JykMDzsVORclIDohOz4wEjYwAC47BkEPCBQGISUhECE2BxQ0Fi8XLiQsFjsSMRQ4MSE4DQsvLRc4BkIeCzwGHgM8FCMkNDEjCxVACTghHzInDQYuFx8rIwAvJCFAMxE8EQY5NRshDjURPho0ES8kNRYhOR44LwsJEQc5NBsjKyEAPg4hAAYsLjgeLDQRHg4yJTMsMiUNKzwAPh8mGzk5FyUzDTUHQQEuByADISxBIwMnOUANQAokMzYCICMXPjkDFzA1CS8pDTsxHhwzQAZCOzEHHjMsNCsNMT4eODAeHgk7OzkjCy8nODEsATswPgcjFgUwMywpPDskQQQvNjwGOAAhKTw/FD01OCBCJgc+MR42QR8PNgcaNSchHzIbFQYzJwpAEiwpAzw7HyMjLAcvMwgzEg8vQSQjOAZCIwM0OSMDCDEjAw0AHhUTEw==
-jobs:
+  ROM_URL: https://sourceforge.net/projects/samsung-galaxy-a01-m01/files/a11q.zip/download
+  
+  jobs:
   build:
     runs-on: ubuntu-latest
 
