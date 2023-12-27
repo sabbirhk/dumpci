@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://sourceforge.net/projects/samsung-galaxy-a01-m01/files/a11q.zip/download
+  ROM_URL: https://rms01.realme.net/sw/RMX3710export_11_A.51_2023063012440119.zip
   jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,7 +23,7 @@ env:
        - name: Clone Dumpyara
          run: |
               sudo apt install neofetch -y
-              git clone https://github.com/fw-dumps/DumprX dumper
+              git clone https://github.com/fw-dumps/firmware_dumper dumper
               sudo apt install python3-pip -y
               sudo apt install -y f2fs-tools
        - name: Setup Dumpyara environment
@@ -42,4 +42,4 @@ env:
        - name: Running Dumpyara
          working-directory: dumper
          run: |
-              ./dumper.sh $ROM_URL
+              ./dump.sh $ROM_URL
