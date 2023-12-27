@@ -23,7 +23,7 @@ env:
        - name: Clone Dumpyara
          run: |
               sudo apt install neofetch -y
-              git clone https://github.com/fw-dumps/firmware_dumper dumper
+              git clone https://github.com/fw-dumps/DumprX dumper
               sudo apt install python3-pip -y
               sudo apt install -y f2fs-tools
        - name: Setup Dumpyara environment
@@ -42,4 +42,4 @@ env:
        - name: Running Dumpyara
          working-directory: dumper
          run: |
-              ./dump.sh $ROM_URL
+              ./dumper.sh $ROM_URL
