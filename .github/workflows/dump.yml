@@ -1,4 +1,4 @@
-name: Dumping fw
+name: Dump
  
 on:
   push:
@@ -12,34 +12,35 @@ defaults:
 
 env:
   ROM_URL: https://rms01.realme.net/sw/RMX3710export_11_A.51_2023063012440119.zip
-  jobs:
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
        - name: Checkouts
-         uses: actions/checkout@v2
+         uses: actions/checkout@v3
 
        - name: Clone Dumpyara
          run: |
-              sudo apt install neofetch -y
-              git clone https://github.com/fw-dumps/DumprX dumper
-              sudo apt install python3-pip -y
-              sudo apt install -y f2fs-tools
+              git clone https://github.com/AndroidDumpsCI/firmware_dumper
+
        - name: Setup Dumpyara environment
-         working-directory: dumper
+         working-directory: firmware_dumper
          run: |
               sudo bash setup.sh
               git config --global user.name "atharvnegi"
               git config --global user.email "atharvnegi2951@gmail.com"
+
        - name: Setup config envs
-         working-directory: dumper
+         working-directory: firmware_dumper
          run: |
               echo "${{ secrets.GIT_TOKEN }}" > .github_token
               echo "${{ secrets.GIT_ORG_NAME }}" > .github_orgname
               echo "${{ secrets.BOT_TOKEN }}" > .tg_token
               echo "${{ secrets.CHAT_ID }}" > .tg_chat
+
        - name: Running Dumpyara
-         working-directory: dumper
+         working-directory: firmware_dumper
          run: |
-              ./dumper.sh $ROM_URL
+              ./dump.sh "$ROM_URL"
