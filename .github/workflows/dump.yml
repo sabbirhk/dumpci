@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://mirror.tejas101k.workers.dev/0:/%5BazROM.net%5D_PLE-3320-0-00WW-A02.nb0.rar
+  ROM_URL: https://ks3orig.bigota.d.miui.com/V14.0.7.0.TKUINXM/miui_SELENEINGlobal_V14.0.7.0.TKUINXM_9e1dbc8e62_13.0.zip
 
 jobs:
   build:
