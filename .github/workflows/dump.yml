@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://ks3orig.bigota.d.miui.com/V14.0.7.0.TKUINXM/miui_SELENEINGlobal_V14.0.7.0.TKUINXM_9e1dbc8e62_13.0.zip
+  ROM_URL: https://03mifirm.cloud/MyUrLiwWDwwOET04MxUsLzkKLSAxPys1DgoGLzEVLTAzEBcCMREuDDICCS4OAh0vHzgiQQ4tKw4yQi0FFQkuDDEVLTAzMj0DK0IABAMpMkADKTQmMRFANTEEPRUnAwYvJxIiPw4CHS8yCSMyEEIXOQMyOhcbAwQpOQonIhsDOTg8HgkeDgIdLwsKLUEcJUEAHx4dLh8eKSIfHicX
 
 jobs:
   build:
