@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://rms01.realme.net/sw/RMX3710export_11_A.51_2023063012440119.zip
+  ROM_URL: https://mirror.tejas101k.workers.dev/0:/Nokia_5_ND1_TA-1024_ND1-618A-0-00WW-B01_600WW_9_20190601_ROM_9008_XML_QPST.zip
 
 jobs:
   build:
