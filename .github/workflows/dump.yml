@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://mirror.tejas101k.workers.dev/0:/%5BazROM.net%5D_PLE-619B-0-00WW-B02_600WW_OS9_20191001_XML.rar
+  ROM_URL: https://mirror.tejas101k.workers.dev/0:/%5BazROM.net%5D_PLE-3320-0-00WW-A02.nb0.rar
 
 jobs:
   build:
