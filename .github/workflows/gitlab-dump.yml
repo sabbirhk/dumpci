@@ -3,7 +3,7 @@ name: Dumping Firmware
 on:
   workflow_dispatch:
     inputs:
-      ROM_URL:
+      ROM_URL:https://mega.nz/file/y1snSYYD#UMYf1bRkOOmlQ59cfxy4O16O-ds8T4rDPCgs04geKeE
         description: "Direct Link of the ROM/Firmware to Dump"
         required: true
 
