@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://onedrive-vercel-index-kohl-eight-30.vercel.app/api/raw/?path=/los-test/lineage%2d20.0%2d20240108%2dUNOFFICIAL%2dselene.zip
+  ROM_URL: https://mega.nz/file/y1snSYYD#UMYf1bRkOOmlQ59cfxy4O16O-ds8T4rDPCgs04geKeE
 
 jobs:
   build:
